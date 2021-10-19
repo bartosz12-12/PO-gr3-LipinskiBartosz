@@ -8,6 +8,9 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        double[] liczby = new double[n];
         //a
 //        double wynik=0;
 //        Scanner scan = new Scanner(System.in);
