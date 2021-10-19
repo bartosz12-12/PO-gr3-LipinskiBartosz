@@ -8,9 +8,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        double[] liczby = new double[n];
+        
         //a
 //        double wynik=0;
 //        Scanner scan = new Scanner(System.in);
@@ -68,6 +66,10 @@ public class Main {
 //        }
 //        System.out.println(wynik);
 //zad2
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        double[] liczby = new double[n];
+
         //a
 //        double wynik=0;
 //        Scanner scan = new Scanner(System.in);
@@ -197,6 +199,7 @@ public class Main {
 //        System.out.println(min+ "\n" + max);
 
         //2.5
+        
 
 //        for(int i = 0; i<=liczby.length-1; i++){
 //            liczby[i] = scn.nextDouble();
