@@ -48,6 +48,21 @@ public class Main {
             if (tab[i] == max)
                 suma+=1;
         }
+        int suma1 = 0;
+        int suma2 = 0;
+        for(int i = 0;i<=n-1;i++) {
+            if(tab[i]>0)
+                suma1+=1;
+            if(tab[i]<0)
+                suma2 +=1;
+        }
+        for(int i = 0;i<=n-1;i++) {
+            if(tab[i]>0)
+                tab[i]= 1;
+            if(tab[i]<0)
+                tab[i]= 0;
+            System.out.println(tab[i]);
+        }
 
 
 
