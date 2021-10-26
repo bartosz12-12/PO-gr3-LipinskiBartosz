@@ -192,7 +192,7 @@ public class Main {
 //        return sgn;
 //    }
 
-        //        //3
+               //3
         Scanner scan = new Scanner(System.in);
         Random r = new Random();
 
@@ -214,7 +214,6 @@ public class Main {
         int[][] b = new int[n][k];
         int[][] c = new int[m][k];
 
-        //wypelnianie a[]
         for (int i = 0; i <= m - 1; i++) {
             System.out.println();
             for (int j = 0; j <= n - 1; j++) {
@@ -224,7 +223,8 @@ public class Main {
         }
         System.out.println();
         System.out.println();
-        //wypelnianie b[]
+        
+        
         for (int i = 0; i <= n - 1; i++) {
             System.out.println();
             for (int j = 0; j <= k - 1; j++) {
@@ -233,7 +233,6 @@ public class Main {
             }
 
         }
-        //mnozenie a[]xb[]
         System.out.println("\n\n");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < k; j++) {
